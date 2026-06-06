@@ -185,7 +185,7 @@ const Views = {
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:20px">
         ${[
           { color: 'var(--cpce-blue,var(--blue))', ico: '👥', titulo: 'PARTICIPACIÓN', items: [
-            ['✅','Puede participar todo el personal del CPCE Mendoza.'],
+            ['✅','Pueden participar todas las autoridades del CPCE Mendoza.'],
             ['✅','El registro es gratuito y de uso exclusivo interno.'],
             ['✅','Cada participante tiene una cuenta individual e intransferible.'],
             ['✅','La participación es voluntaria.'],
@@ -209,9 +209,7 @@ const Views = {
           { color: '#6b21a8', ico: '🔍', titulo: 'TRANSPARENCIA', items: [
             ['📡','Los resultados reales los carga únicamente el administrador del sistema.'],
             ['⚡','El cálculo de puntos es automático e inmediato al cargar el resultado.'],
-            ['👀','Una vez iniciado el partido, cualquier participante puede ver los pronósticos de todos.'],
-            ['🔐','Las predicciones son privadas hasta el inicio del partido para garantizar la equidad.'],
-            ['⚠️','Ante errores de carga, el administrador puede corregir un resultado. El sistema recalcula los puntos automáticamente.'],
+        
           ]},
           { color: '#0f766e', ico: '🗓️', titulo: 'FASES DEL TORNEO', items: [
             ['⚽','<strong>Fase de grupos:</strong> 48 partidos, 12 grupos de 4 equipos. Los 2 primeros de cada grupo avanzan más 8 mejores terceros.'],
