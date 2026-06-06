@@ -572,7 +572,7 @@ const Views = {
               ${XSS.s(u.nombre)}
               ${u.email === myEmail ? '<span class="metag">vos</span>' : ''}
             </div>
-            <div class="remail">DNI: ${XSS.s(u.email)}</div>
+        
             ${u.area ? `<div style="font-size:11px;color:var(--blue);margin-top:2px;font-weight:500">🏢 ${XSS.s(u.area)}</div>` : ''}
           </td>
           <td><span class="rpts">${u.puntosTotales}</span></td>
